@@ -42,3 +42,4 @@ int main()
 
 No coż że ze Szwecji
 1
+2
