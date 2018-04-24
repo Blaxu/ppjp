@@ -1,0 +1,86 @@
+#include stdio.h
+#include stdlib.h
+
+
+int  creatematrix(int n)
+{
+    int i;
+    int wiersz=(int)malloc(nsizeof(int));
+    if(wiersz!=NULL)
+        {
+        for(i=0;in;i++)
+            {
+            wiersz[i]=(int)malloc(nsizeof(int));
+            if(wiersz[i]==NULL)
+                {
+                deletematrix(wiersz);
+                return NULL;
+                }
+
+            }
+
+        }
+    return wiersz;
+}
+
+void fillmatrix(int tab, int n)
+{
+    int wers,kol, pomoc;
+    pomoc=1;
+    for(wers=0;wersn;wers++)
+        {
+        for(kol=0;koln;kol++)
+            {
+            (tab[wers][kol])=pomoc;
+            pomoc++;
+            }
+
+        }
+    return;
+}
+
+void printMatrix(int tab, int n)
+{
+    int wers,kol;
+    for(wers=0;wersn;wers++)
+        {
+        for(kol=0;koln;kol++)
+            {
+            printf(%5d,tab[wers][kol]);
+            }
+        printf(n);
+        }
+    return;
+}
+
+void deletematrix(int tab, int n)
+{
+    int i;
+    for(i=0;in;i++)
+    free(tab);
+    free(tab);
+    return;
+}
+
+
+int main()
+{
+    int rozm;
+    printf(podaj rozmiar macierzyn);
+    scanf(%d,&rozm);
+    intmacierz=creatematrix(rozm);
+    if(creatematrix(rozm)==NULL)
+        printf(wystapil blad);
+    else
+    {
+        fillmatrix(macierz,rozm);
+        printMatrix(macierz,rozm);
+        deletematrix(macierz,rozm);
+    }
+    return 0;
+
+
+}
+
+
+
