@@ -20,7 +20,7 @@ sum=x+y;
     printf("Hello, World!\n");
     printf("Hello, World!\n");
     printf("Hello, World!\n");
-    printf("Hello, World!\n");
+    cin>>x;
     printf("Hello, World!\n");
     printf("Hello, World!\n");
     printf("Hello, World!\n");
