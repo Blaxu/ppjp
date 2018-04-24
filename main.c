@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 int main(int argc, const char * argv[]) {
     printf("Hello, World!\n");
@@ -6,22 +6,27 @@ int main(int argc, const char * argv[]) {
     printf("Hello, Świat!\n");
     printf("Hello, World!\n");
     printf("Hello, World!\n");
+    printf("Good bye world!\n"); // 1 zmiana
+    printf("Hello, World!\n");
+   int x,y;
+cin>>x;
+cin>>y;
+int sum;
+sum=x+y;
+	
     printf("Hello, World!\n");
     printf("Hello, World!\n");
     printf("Hello, World!\n");
     printf("Hello, World!\n");
     printf("Hello, World!\n");
     printf("Hello, World!\n");
+    cin>>x;
     printf("Hello, World!\n");
     printf("Hello, World!\n");
     printf("Hello, World!\n");
     printf("Hello, World!\n");
     printf("Hello, World!\n");
-    printf("Hello, World!\n");
-    printf("Hello, World!\n");
-    printf("Hello, World!\n");
-    printf("Hello, World!\n");
-    printf("Hello, World!\n");
+    printf("witaj, też mam 13 lat");
     printf("Hello, World!\n");
     printf("Hello, World!\n");
     printf("Hello, World!\n");
