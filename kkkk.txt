@@ -1,0 +1,42 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int * add(int * tab, int rozmiar, int new_elem)
+{
+    int *tabwieksza;
+    tabwieksza=(int*) malloc((rozmiar+1)*sizeof(*tabwieksza));
+    if(tabwieksza!=NULL)
+    {
+        int i;
+        for(i=0;i<rozmiar;i++)
+            tabwieksza[i]=tab[i];
+            free(tab);
+    }
+    tabwieksza[rozmiar]=new_elem;
+    if(tabwieksza==NULL)
+        return NULL;
+    return tabwieksza;
+
+}
+
+
+
+
+int main()
+{
+
+    int *tablica=NULL;
+    int i;
+    for(i=0;i<10;i++)
+    {
+
+        tablica=add(tablica,i,i+1);
+        if(tablica!=NULL)
+        printf("%d ",tablica[i]);
+    }
+        free(tablica);
+
+        return 0;
+}
+
