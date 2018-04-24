@@ -26,7 +26,7 @@ sum=x+y;
     printf("Hello, World!\n");
     printf("Hello, World!\n");
     printf("Hello, World!\n");
-    printf("Hello, World!\n");
+    printf("witaj, też mam 13 lat");
     printf("Hello, World!\n");
     printf("Hello, World!\n");
     printf("Hello, World!\n");
