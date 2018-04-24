@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+main()
+{
+     printf ("Program pierwszy \n");
+     int t=75, s;
+     s=t/9;
+
+     printf ("na wykonanie kazdego z zadan masz %d minut czasu \n",s );
+
+     float c=75, sc;
+     sc=c/9;
+     printf ("na wykonanie kazdego z zadan masz %f minut czasu \n",sc );
+
+
+
+}
+
+#include <stdio.h>
+
+main()
+{
+    int r;
+    float s, pi=22/7.;
+    printf("podaj promien kola: ");
+    scanf("%d",&r);
+    s=(pi*r*r);
+    printf("pole kola wynosi: %f",s);
+
+}
+
